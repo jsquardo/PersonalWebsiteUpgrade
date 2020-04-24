@@ -1,0 +1,17 @@
+/* blogTemplate.css */
+
+.blogTemplate .blogTemplate-title {
+    margin: 80px 0 24px;
+}
+
+.blogTemplate .blogTemplate-posted-by {
+    font-size: 1.2em;
+}
+
+.blogTemplate a {
+    color: #fff;
+}
+
+.Link {
+    color: rgb(12, 11, 11) !important;
+}

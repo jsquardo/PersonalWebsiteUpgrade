@@ -1,0 +1,27 @@
+@import url(../node_modules/rbx/index.css);
+@font-face {
+  font-family: "Wotfard";
+  src: url("./wotfard-regular-webfont.woff2") format("woff2");
+}
+body {
+  font-family: Wotfard;
+  color: #0a0c10;
+}
+body a {
+  color: #0a0c10;
+}
+body .navbar-link {
+  color: #0a0c10;
+}
+.container {
+  max-width: 1100px;
+}
+.navbar {
+  margin-top: 0.75rem;
+}
+.navbar-burger:hover {
+  background-color: white;
+}
+.navbar-burger:active {
+  background-color: white;
+}

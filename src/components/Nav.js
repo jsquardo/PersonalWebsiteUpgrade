@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+import './Nav.css'
+
 import { Navbar } from 'rbx';
 
 const Nav = () => (
@@ -16,10 +18,8 @@ const Nav = () => (
 			<Navbar.Burger />
 		</Navbar.Brand>
 		<Navbar.Menu>
-			<Navbar.Segment align="start" />
-
-			<Navbar.Segment align="end">
-				<Navbar.Item>
+			<Navbar.Segment align="start">
+      <Navbar.Item>
 					<Link to="/">Home</Link>
 				</Navbar.Item>
 				<Navbar.Item>
@@ -28,17 +28,11 @@ const Nav = () => (
 				<Navbar.Item>
 					<Link to="/contact">Contact</Link>
 				</Navbar.Item>
+      </Navbar.Segment>
 
-				<Navbar.Item dropdown>
-					<Navbar.Link>More</Navbar.Link>
-					<Navbar.Dropdown>
-						<Navbar.Item>About</Navbar.Item>
-						<Navbar.Item>Jobs</Navbar.Item>
-						<Navbar.Item>Contact</Navbar.Item>
-						<Navbar.Divider />
-						<Navbar.Item>Report an issue</Navbar.Item>
-					</Navbar.Dropdown>
-				</Navbar.Item>
+			<Navbar.Segment align="end">
+
+
 			</Navbar.Segment>
 		</Navbar.Menu>
 	</Navbar>

@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 // import Projects from '../components/Projects';
 // import BlogFeature from '../components/BlogFeature';
 
-import compIcon from '../../public/icons/codeEdit.svg';
+// import compIcon from '../../public/icons/codeEdit.svg';
 import GitHubButton from 'react-github-btn';
 
 import { Container } from 'rbx';
@@ -16,7 +16,7 @@ const Home = () => {
 			<Container>
 				<div className="hero">
 					<div className="hero_left">
-						<h1 className="title is-size-2">Hi, I'm Johnny</h1>
+						<h1 className="title is-size-2 underline">Hi, I'm Johnny</h1>
 						<p>
 							I'm a software developer with a focus on JavaScript and React with a passion for programming open source
 							projects.
@@ -26,7 +26,7 @@ const Home = () => {
 						</GitHubButton>
 					</div>
 					<div className="hero_right">
-						<img src={compIcon} alt="" className="code_icon" />
+						{/* <img src={compIcon} alt="" className="code_icon" /> */}
 						<h3 className="is-size-4 small_title">Hire Me!</h3>
 						<p>I'm available for work so feel free to reach out.</p>
 					</div>

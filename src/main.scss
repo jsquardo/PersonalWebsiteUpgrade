@@ -11,14 +11,19 @@ $light-green: #5cf9a3;
 	color: $light-green !important;
 }
 
+.underline {
+  text-decoration: underline;
+  text-decoration-color: $light-green;
+}
+
 body {
 	font-family: 'ProximaNova-Regular', sans-serif;
 	color: #0a0c10;
 	a {
 		color: #0a0c10;
 		a:hover {
-			text-decoration: none;
-			color: #0a0c10;
+			text-decoration: underline;
+      text-decoration-color: $light-green;
 		}
 	}
 	.navbar-link {

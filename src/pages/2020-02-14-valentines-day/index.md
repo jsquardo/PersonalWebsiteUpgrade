@@ -2,7 +2,7 @@
 path: '/my-valentines-blog'
 date: '2020-02-014'
 title: 'Valentines Day'
-author: 'Emma Bostian'
+# author: 'Emma Bostian'
 description: 'This is my Valentines Day blog of 2020!'
 ---
 

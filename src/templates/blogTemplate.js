@@ -16,9 +16,9 @@ export default function Template({ data }) {
           Back to blogs
         </Link>
         <h1 className="blogTemplate-title">{title}</h1>
-        <p className="blogTemplate-posted-by">
+        {/* <p className="blogTemplate-posted-by">
           Posted by {author} on {date}
-        </p>
+        </p> */}
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>

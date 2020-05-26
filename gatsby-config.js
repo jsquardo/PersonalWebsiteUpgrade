@@ -9,7 +9,7 @@ module.exports = {
 		`gatsby-transformer-remark`,
 		`gatsby-plugin-react-helmet`,
 		`gatsby-transformer-sharp`,
-		`gatsby-plugin-sharp`,
+    `gatsby-plugin-sharp`,
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
@@ -34,7 +34,19 @@ module.exports = {
 				name: `fonts`,
 				path: `${__dirname}/src/fonts`
 			}
-		}
+    },
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "GITHUB",
+        fieldName: "github",
+        url: "https://api.github.com/graphql",
+        headers: {
+          Authorization: `Bearer 0699211bd9c128f98b71e62a13771b19a975355b`
+        }
+        // 0699211bd9c128f98b71e62a13771b19a975355b
+      }
+    }
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.dev/offline
 		// `gatsby-plugin-offline`,
